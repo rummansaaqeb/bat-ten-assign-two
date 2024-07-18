@@ -230,13 +230,92 @@
   color: rgba(239, 237, 232, 0.65);
 }
 
+.fa-solid {
+  display: none;
+}
+
 /* Banner Styles End Here */
 
+/* Responsive for smaller devices start here */
+
 @media screen and (max-width:576px) {
-  .navbar ul{
+
+  /* Navbar Responsive Styles Start Here */
+  .navbar {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .navbar ul li {
     display: none;
   }
-.banner-container{
-  flex-direction: column;
-}
+
+  .fa-solid {
+    display: block;
   }
+
+  /* Navbar Responsive Styles End Here */
+
+  /* Banner Responsive Styles Start Here */
+  .banner-title {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+
+  .banner-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  .banner-btn {}
+
+  .banner-btn-two {
+    position: absolute;
+    margin-right: 25px;
+
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-1 {
+    position: absolute;
+    left: 70px;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+
+  .card-1-title {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: -10px;
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+  }
+
+  .card-1-subtitle {
+    font-size: 9px;
+    position: absolute;
+    top: 20px;
+  }
+  .card-div{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .card-2 {
+    display: none;
+  }
+}
