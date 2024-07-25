@@ -24,10 +24,14 @@
 }
 
 /* Navbar Styles Start Here */
+body {
+  background: radial-gradient(circle at 50%, rgb(32, 32, 32) 0%, rgb(0, 0, 0) 99.4%);
+}
+
 .header {
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  /* background: radial-gradient(circle at 50%, rgb(32, 32, 32) 0%, rgb(0, 0, 0) 99.4%); */
 }
 
 .navbar {
@@ -123,8 +127,10 @@
 }
 
 .banner-span {
-  font-family: "Calligraffitti";
+  font-family: "Calligraffitti", cursive;
   text-transform: capitalize;
+  margin-right: 20px;
+
 }
 
 .banner-description {
@@ -144,7 +150,7 @@
   margin-right: 14px;
 }
 
-#banner-btn {
+.banner-span-btn {
   color: white;
   font-size: 18px;
   font-weight: 800;
@@ -236,6 +242,193 @@
 
 /* Banner Styles End Here */
 
+/* Main Section Styles Start Here */
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding-bottom: 200px;
+
+}
+
+/* Change Your Habits Section Styles Start Here */
+.change-habit-title {
+  font-size: 46px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.change-habit-description {
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.change-habit-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+}
+
+.change-habit-img-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+}
+
+/* .test-change{
+  position: absolute;
+  top: 250px;
+  left: 100px;
+
+} */
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 370px;
+}
+
+.movement {
+  position: absolute;
+  left: 7.7cm;
+  padding-top: 100px;
+}
+
+.time {
+  position: absolute;
+  left: 19.3cm;
+  padding-top: 100px;
+}
+
+.practice {
+  position: absolute;
+  right: 18.7cm;
+  padding-top: 100px;
+}
+
+.weight-loss {
+  position: absolute;
+  right: 272px;
+  padding-top: 100px;
+}
+
+.subtitle-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sub-movement {
+  position: absolute;
+  left: 187px;
+  top: 75px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sub-time {
+  position: absolute;
+  left: 600px;
+  top: 75px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sub-practice {
+  position: absolute;
+  right: 580px;
+  top: 75px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sub-weight-loss {
+  position: absolute;
+  right: 185px;
+  top: 75px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#sub-time {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#sub-practice {
+  margin-left: 37px;
+  margin-top: 5px;
+}
+
+#sub-weight-loss {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+
+/* Change Your Habits Section Styles End Here */
+
+/* Run An Extra Mile Easily Section Styles Start Here */
+.run-extra-container {
+  color: white;
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 28px;
+  background-color: #222222;
+  margin-top: 300px;
+
+}
+
+.run-extra-container img {
+  width: 520px;
+  height: 400px;
+  border-radius: 18px;
+  margin-right: 50px;
+}
+
+.run-extra-title-container {
+  margin-left: 100px;
+}
+
+.run-extra-title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.run-extra-description {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 30px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.img-two{
+  display: none;
+}
+
+#run-extra-btn {
+  color: white;
+  font-size: 18px;
+  padding: 0px 35px;
+  font-weight: 700;
+}
+
+
+/* Run An Extra Mile Easily Section Styles End Here */
+
+
+/* Main Section Styles End Here */
+
 /* Responsive for smaller devices start here */
 
 @media screen and (max-width:576px) {
@@ -308,7 +501,8 @@
     position: absolute;
     top: 20px;
   }
-  .card-div{
+
+  .card-div {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -316,6 +510,138 @@
   }
 
   .card-2 {
+    position: absolute;
+    left: 230px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    top: 12cm;
+
+  }
+
+  .card-2-title {
+    font-size: 24px;
+    margin-right: 13px;
+    position: absolute;
+    left: 10px;
+    top: -8px;
+    font-weight: 900px;
+  }
+
+  .card-2-subtitle {
+    font-size: 8px;
+    position: absolute;
+    bottom: 5px;
+    left: 11px;
+  }
+
+  /* Banner Responsive Styles End Here */
+
+  /* Change Your Habits Responsive Styles Section Starts Here */
+  .change-habit-title {
+    padding: 0px;
+  }
+
+  .change-habit-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .movement {
+    position: absolute;
+    top: 1300px;
+    left: 170px;
+  }
+
+  .sub-movement {
+    position: absolute;
+    top: -1165px;
+    left: 75px;
+  }
+
+  .time {
+    position: absolute;
+    left: 190px;
+    top: 1700px;
+  }
+
+  .sub-time {
+    position: absolute;
+    left: 60px;
+    top: -760px;
+  }
+
+  .practice {
+    position: absolute;
+    left: 180px;
+    top: 2110px;
+  }
+
+  .sub-practice {
+    position: absolute;
+    right: 40px;
+    top: -350px;
+  }
+
+  .weight-loss {
+    position: absolute;
+    right: 150px;
+    top: 2520px;
+  }
+
+  .sub-weight-loss {
+    position: absolute;
+    right: 70px;
+  }
+
+  /* Change Your Habits Section Responsive Styles End Here */
+  .run-extra-container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 590px;
+    position: relative;
+  }
+
+  .run-extra-title {
+    font-size: 30px;
+    line-height: 40px;
+    position: absolute;
+    left: 40px;
+    margin-top: 30px;
+  }
+
+  .run-extra-description {
+    position: absolute;
+    bottom: 320px;
+    margin: 0 35px;
+    left: 5px;
+  }
+
+  .run-extra-btn {
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    padding: 15px 75px;
+  }
+
+  .img-one {
     display: none;
   }
-}
+  .img-two{
+    display: block;
+    max-width: 77%;
+    max-height: 30%;
+    position: absolute;
+    border-radius: 18px;
+    top: 380px;
+    left: 45px;
+  }
+  .br {
+    display: none;
+  }
+  }
+
