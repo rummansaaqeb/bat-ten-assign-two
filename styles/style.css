@@ -593,6 +593,7 @@ th {
 
 @media screen and (max-width:576px) {
 
+
   /* Navbar Responsive Styles Start Here */
   .navbar {
     width: 100%;
@@ -703,6 +704,7 @@ th {
   /* Banner Responsive Styles End Here */
 
   /* Change Your Habits Responsive Styles Section Starts Here */
+  
   .change-habit-title {
     padding: 0px;
   }
@@ -824,11 +826,23 @@ th {
     height: 100%;
   }
 
+  .bmi-title {
+    font-size: 32px;
+    margin-left: 10px;
+  }
+
+  .bmi-description {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 10px;
+  }
+
   .table-title {
     font-size: 24px;
     font-weight: 900;
     margin-left: 10px;
   }
+
 
   table {
     max-width: 80%;
@@ -881,18 +895,31 @@ th {
     margin: 10px;
     margin-bottom: 130px;
   }
-  .chevron-one{
+
+  .chevron-one {
     position: absolute;
     top: 700px;
     right: 35px;
   }
-  .chevron-two{
+
+  .chevron-two {
     position: absolute;
     top: 770px;
     right: 35px;
-    
+
   }
-  .input-title, .input-description{
+
+  .input-title {
+    font-size: 16px;
+  }
+
+  .input-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .input-title,
+  .input-description {
     margin-left: 10px;
   }
 
