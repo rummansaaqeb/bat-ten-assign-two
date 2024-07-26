@@ -467,13 +467,15 @@ body {
   justify-content: space-evenly;
   position: relative;
 }
-.table-title{
+
+.table-title {
   font-size: 28px;
   font-weight: 900;
   margin-top: 52px;
   margin-bottom: 52px;
 }
-.inputs{
+
+.inputs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
@@ -488,54 +490,64 @@ body {
   padding: 5px 12px 5px 12px;
   color: white;
 }
-.input-title-container{
+
+.input-title-container {
   width: 570px;
   height: 100px;
   text-align: left;
   margin-bottom: 34px;
 }
-.input-bmi{
+
+.input-bmi {
   position: absolute;
   top: 425px;
   right: 730px;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
-.input-title{
+
+.input-title {
   font-size: 28px;
   font-weight: 900;
   margin-top: 52px;
   margin-bottom: 14px;
 }
-.input-description{
+
+.input-description {
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.5);
 }
-.rumman input[type="text"]{
+
+.rumman input[type="text"] {
   width: 94%;
   height: 100%;
   padding: 20px;
   margin-top: 12px;
 }
-.position{
+
+.position {
   color: rgba(255, 255, 255, 0.6);
 }
-.chevron-one{
+
+.chevron-one {
   position: absolute;
-  top: 277px; 
+  top: 277px;
   right: 280px;
 }
-.chevron-two{
+
+.chevron-two {
   position: absolute;
   top: 345px;
   right: 280px;
 }
+
 ::placeholder {
   text-align: left;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
-#bmi-btn{
+
+#bmi-btn {
   color: white;
   font-size: 18px;
   padding: 0px 35px;
@@ -546,12 +558,11 @@ body {
 table {
   border-collapse: collapse;
 }
-td{
+
+td {
   color: rgba(255, 255, 255, 0.5);
 }
-th{
-  text-align: left;
-}
+
 td,
 thead,
 th {
@@ -752,6 +763,9 @@ th {
   }
 
   /* Change Your Habits Section Responsive Styles End Here */
+
+  /* Run An Extra Mile Section Responsive Styles Start Here */
+
   .run-extra-container {
     display: flex;
     flex-direction: column;
@@ -799,4 +813,89 @@ th {
   .br {
     display: none;
   }
+
+  /* Run An Extra Mile Section Responsive Styles End Here */
+
+  /* BMI Calculator Section Responsive Styles Start Here */
+  .bmi-container>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .table-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 10px;
+  }
+
+  table {
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  tr,
+  td {
+    padding: 20px 10px;
+  }
+
+  #bmi {
+    position: absolute;
+    left: 33px;
+    top: 14px;
+  }
+
+  #weight-status {
+    white-space: nowrap;
+  }
+
+  .status {
+    padding: 20px 68px;
+  }
+
+  .nowrap {
+    white-space: nowrap;
+  }
+
+  .bmi-container button {
+    position: absolute;
+    top: 820px;
+    left: 10px;
+  }
+
+  .inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .inputs>input[type="text"] {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .rumman input[type="text"] {
+    width: 86%;
+    margin: 10px;
+    margin-bottom: 130px;
+  }
+  .chevron-one{
+    position: absolute;
+    top: 700px;
+    right: 35px;
+  }
+  .chevron-two{
+    position: absolute;
+    top: 770px;
+    right: 35px;
+    
+  }
+  .input-title, .input-description{
+    margin-left: 10px;
+  }
+
+
+  /* BMI Calculator Section Responsive Styles End Here */
 }
