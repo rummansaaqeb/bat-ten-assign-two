@@ -17,6 +17,9 @@
   font-weight: 400;
   font-style: normal;
 }
+.br{
+  display: none;
+}
 
 /* Fonts End Here */
 * {
