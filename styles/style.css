@@ -898,7 +898,71 @@ th {
 
 
 /* Footer Section Styles Start Here */
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.footer-company-name{
+  margin-top: 66px;
+  margin-bottom: 79px;
+}
+.footer-company-name h1{
+  color: rgb(230, 83, 60);
+  font-size: 70px;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.footer-company-name p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 24px;
+}
+.get-started-one{
+  margin-top: 66px;
+}
+.get-started-one h1{
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.get-started-one li{
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
 
+.get-started-two{
+  margin-top: 66px;
+}
+.get-started-two h1{
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.get-started-two li{
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-hr{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  border: 1px solid #292929;
+}
+.footer-copyright{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 36px;
+}
 
 /* Footer Section Styles End Here */
 
@@ -1439,7 +1503,6 @@ th {
     font-size: 14px;
   }
 
-
   .featured-btn-one {
     position: absolute;
     top: 480px;
@@ -1455,7 +1518,27 @@ th {
     top: 520px;
     left: -98px;
   }
+
+  /* Features Workout Programs Section Responsive Styles End Here */
+
+  /* Footer Section Responsive Styles Start Here */
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-company-name{
+    margin-left: 20px;
+  }
+  .get-started-one h1{
+    margin-left: 38px;
+  }
+  .get-started-two h1{
+    margin-left: 38px;
+  }
+  .footer-container ul{
+    list-style: none;
+  }
+  /* Footer Section Responsive Styles End Here */
 }
 
 
-/* Features Workout Programs Section Responsive Styles End Here */
