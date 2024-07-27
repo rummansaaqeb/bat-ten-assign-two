@@ -551,9 +551,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-#bmi-btn {
+.bmi-btn {
   color: white;
   font-size: 18px;
+  padding: 0px 33px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -629,20 +630,13 @@ th {
 .theresa {
   filter: brightness(80%);
 }
-
-.jerome,
-.dianne {
+.jerome, .dianne{
   margin-left: 25px;
 }
-
-.cameron,
-.cody {
+.cameron, .cody{
   margin-left: 10px
 }
-
-.darwell,
-.cameron,
-.jerome {
+.darwell, .cameron, .jerome{
   margin-top: 20px;
 }
 
@@ -661,84 +655,69 @@ th {
 .jerome-position-subtitle {
   color: rgba(255, 255, 255, 0.5)
 }
-
-.cameron-position {
+.cameron-position{
   color: white;
   position: absolute;
   top: 230px;
   left: 400px;
 }
-
-.cameron-position-title {
+.cameron-position-title{
   font-size: 20px;
   font-weight: 900;
 }
-
-.cameron-position-subtitle {
+.cameron-position-subtitle{
   color: rgba(255, 255, 255, 0.5);
 }
-
-.darwell-position {
+.darwell-position{
   position: absolute;
   top: 230px;
   left: 750px;
 }
-
-.darwell-position-title {
+.darwell-position-title{
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-
-.darwell-position-subtitle {
+.darwell-position-subtitle{
   color: rgba(255, 255, 255, 0.5);
 }
-
-.dianne-position {
+.dianne-position{
   position: absolute;
   bottom: 60px;
   left: 50px;
 }
-
-.dianne-position-title {
+.dianne-position-title{
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-
-.dianne-position-subtitle {
+.dianne-position-subtitle{
   color: rgba(255, 255, 255, 0.5);
 }
-
-.cody-position {
+.cody-position{
   position: absolute;
   bottom: 60px;
   left: 400px;
 }
-
-.cody-position-title {
+.cody-position-title{
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-
-.cody-position-subtitle {
+.cody-position-subtitle{
   color: rgba(255, 255, 255, 0.5);
 }
-
-.theresa-position {
+.theresa-position{
   position: absolute;
   bottom: 60px;
   left: 750px;
 }
-
-.theresa-position-title {
+.theresa-position-title{
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-
-.theresa-position-subtitle {
+.theresa-position-subtitle{
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -752,10 +731,9 @@ th {
 
 @media screen and (max-width:576px) {
 
-  .br-run {
-    display: none;
-  }
-
+.br-run{
+  display: none;
+}
   /* Navbar Responsive Styles Start Here */
   .navbar {
     width: 100%;
@@ -870,8 +848,7 @@ th {
     font-weight: 900;
     padding: 0px;
   }
-
-  .change-habit-description {
+  .change-habit-description{
     margin: 14px 38px;
   }
 
@@ -995,8 +972,7 @@ th {
     width: 100%;
     height: 100%;
   }
-
-  .bmi-title-container {
+  .bmi-title-container{
     margin-bottom: 32px;
   }
 
@@ -1015,6 +991,9 @@ th {
     font-size: 16px;
     font-weight: 900;
     margin-left: 20px;
+  }
+  .bmi-btn{
+    padding: 0px;
   }
 
 
@@ -1052,12 +1031,10 @@ th {
     top: 810px;
     left: 10px;
   }
-
-  .input-title {
+  .input-title{
     padding-left: 20px;
   }
-
-  .input-description {
+  .input-description{
     padding-left: 20px;
   }
 
@@ -1110,75 +1087,61 @@ th {
 
 
   /* Meet Our Team Section Responsive Styles Start Here */
-  .meet-team-title-container {
+  .meet-team-title-container{
     width: 100%;
   }
-
-  .meet-team-title {
+  .meet-team-title{
     font-size: 32px;
   }
-
-  .meet-team-description {
+  .meet-team-description{
     margin: 0px 33px;
   }
-
-  .meet-team-img-container {
+  .meet-team-img-container{
     width: 90%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-
-  .cameron {
+  .cameron{
     margin-left: 25px;
   }
-
-  .darwell {
+  .darwell{
     margin-left: 25px;
     margin-bottom: 20px;
   }
-
-  .dianne {
+  .dianne{
     margin-bottom: 20px;
   }
-
-  .cody {
+  .cody{
     margin-left: 25px;
     margin-bottom: 20px;
   }
-
-  .theresa {
+  .theresa{
     margin-left: 25px;
     margin-bottom: 15px;
   }
-
-  .cameron-position {
+  .cameron-position{
     position: absolute;
     left: 50px;
     top: 530px;
   }
-
-  .darwell-position {
+  .darwell-position{
     position: absolute;
     top: 830px;
     left: 50px;
   }
-
-  .cody-position {
+  .cody-position{
     position: absolute;
     bottom: 350px;
     left: 50px;
   }
-
-  .dianne-position {
+  .dianne-position{
     position: absolute;
     bottom: 640px;
   }
-
-  .theresa-position {
+  .theresa-position{
     position: absolute;
     left: 50px;
   }
-
   /* Meet Our Team Section Responsive Styles End Here */
 }
