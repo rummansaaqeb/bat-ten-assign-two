@@ -611,7 +611,7 @@ th {
   justify-content: center;
   position: relative;
   background-color: #1A1A1A;
-  margin-bottom: 100px;
+  margin-bottom: 76px;
   border-radius: 18px;
   padding: 10px;
 }
@@ -630,13 +630,20 @@ th {
 .theresa {
   filter: brightness(80%);
 }
-.jerome, .dianne{
+
+.jerome,
+.dianne {
   margin-left: 25px;
 }
-.cameron, .cody{
+
+.cameron,
+.cody {
   margin-left: 10px
 }
-.darwell, .cameron, .jerome{
+
+.darwell,
+.cameron,
+.jerome {
   margin-top: 20px;
 }
 
@@ -655,69 +662,84 @@ th {
 .jerome-position-subtitle {
   color: rgba(255, 255, 255, 0.5)
 }
-.cameron-position{
+
+.cameron-position {
   color: white;
   position: absolute;
   top: 230px;
   left: 400px;
 }
-.cameron-position-title{
+
+.cameron-position-title {
   font-size: 20px;
   font-weight: 900;
 }
-.cameron-position-subtitle{
+
+.cameron-position-subtitle {
   color: rgba(255, 255, 255, 0.5);
 }
-.darwell-position{
+
+.darwell-position {
   position: absolute;
   top: 230px;
   left: 750px;
 }
-.darwell-position-title{
+
+.darwell-position-title {
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-.darwell-position-subtitle{
+
+.darwell-position-subtitle {
   color: rgba(255, 255, 255, 0.5);
 }
-.dianne-position{
+
+.dianne-position {
   position: absolute;
   bottom: 60px;
   left: 50px;
 }
-.dianne-position-title{
+
+.dianne-position-title {
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-.dianne-position-subtitle{
+
+.dianne-position-subtitle {
   color: rgba(255, 255, 255, 0.5);
 }
-.cody-position{
+
+.cody-position {
   position: absolute;
   bottom: 60px;
   left: 400px;
 }
-.cody-position-title{
+
+.cody-position-title {
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-.cody-position-subtitle{
+
+.cody-position-subtitle {
   color: rgba(255, 255, 255, 0.5);
 }
-.theresa-position{
+
+.theresa-position {
   position: absolute;
   bottom: 60px;
   left: 750px;
 }
-.theresa-position-title{
+
+.theresa-position-title {
   color: white;
   font-size: 20px;
   font-weight: 900;
 }
-.theresa-position-subtitle{
+
+.theresa-position-subtitle {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -725,15 +747,171 @@ th {
 /* Meet Our Team Section Styles Starts Here */
 
 
+/* Featured Workout Programs Section Styles Starts Here (CHALLENGE PART) */
+.featured-programs-title-container {
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.featured-programs-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.featured-programs-description {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.featured-list {
+  color: white;
+}
+
+.featured-info {
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.featured-benefits {
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.featured-card-container {
+  width: 80%;
+  height: 80%;
+  margin-left: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.featured-card-one {
+  width: 33%;
+  height: 100%;
+  background-color: #1A1A1A;
+  border-radius: 18px;
+  margin-right: 20px;
+}
+
+.featured-card-one img {
+  width: 365px;
+  height: 273px;
+  margin: 20px 60px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.featured-card-one h3 {
+  text-align: center;
+}
+
+.featured-card-one h4 {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.featured-list li {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.featured-card-two {
+  width: 33%;
+  height: 100%;
+  background-color: #1A1A1A;
+  border-radius: 18px;
+  margin-right: 20px;
+}
+
+.featured-card-two img {
+  width: 365px;
+  height: 273px;
+  margin: 20px 65px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.featured-card-two h3 {
+  text-align: center;
+}
+
+.featured-card-two h4 {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.featured-card-three {
+  width: 33%;
+  height: 100%;
+  background-color: #1A1A1A;
+  border-radius: 18px;
+  margin-right: 20px;
+}
+
+.featured-card-three img {
+  width: 365px;
+  height: 273px;
+  margin: 20px 65px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.featured-card-three h3 {
+  text-align: center;
+}
+
+.featured-card-three h4 {
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.featured-btn-two {
+  margin: 60px 0px 50px 130px;
+}
+
+.featured-btn-three {
+  margin: 60px 0px 50px 150px;
+}
+
+.featured-btn-one {
+  margin: 60px 0px 50px 140px;
+}
+
+
+/* Featured Workout Programs Section Styles Ends Here (CHALLENGE PART) */
+
+
 /* Main Section Styles End Here */
+
+
+
+/* Footer Section Styles Start Here */
+
+
+/* Footer Section Styles End Here */
+
+
 
 /* Responsive for smaller devices start here */
 
 @media screen and (max-width:576px) {
 
-.br-run{
-  display: none;
-}
+  .br-run {
+    display: none;
+  }
+
   /* Navbar Responsive Styles Start Here */
   .navbar {
     width: 100%;
@@ -848,7 +1026,8 @@ th {
     font-weight: 900;
     padding: 0px;
   }
-  .change-habit-description{
+
+  .change-habit-description {
     margin: 14px 38px;
   }
 
@@ -972,7 +1151,8 @@ th {
     width: 100%;
     height: 100%;
   }
-  .bmi-title-container{
+
+  .bmi-title-container {
     margin-bottom: 32px;
   }
 
@@ -992,7 +1172,8 @@ th {
     font-weight: 900;
     margin-left: 20px;
   }
-  .bmi-btn{
+
+  .bmi-btn {
     padding: 0px;
   }
 
@@ -1031,10 +1212,12 @@ th {
     top: 810px;
     left: 10px;
   }
-  .input-title{
+
+  .input-title {
     padding-left: 20px;
   }
-  .input-description{
+
+  .input-description {
     padding-left: 20px;
   }
 
@@ -1087,61 +1270,192 @@ th {
 
 
   /* Meet Our Team Section Responsive Styles Start Here */
-  .meet-team-title-container{
+  .meet-team-title-container {
     width: 100%;
   }
-  .meet-team-title{
+
+  .meet-team-title {
     font-size: 32px;
   }
-  .meet-team-description{
+
+  .meet-team-description {
     margin: 0px 33px;
   }
-  .meet-team-img-container{
+
+  .meet-team-img-container {
     width: 90%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .cameron{
+
+  .cameron {
     margin-left: 25px;
   }
-  .darwell{
-    margin-left: 25px;
-    margin-bottom: 20px;
-  }
-  .dianne{
-    margin-bottom: 20px;
-  }
-  .cody{
+
+  .darwell {
     margin-left: 25px;
     margin-bottom: 20px;
   }
-  .theresa{
+
+  .dianne {
+    margin-bottom: 20px;
+  }
+
+  .cody {
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .theresa {
     margin-left: 25px;
     margin-bottom: 15px;
   }
-  .cameron-position{
+
+  .cameron-position {
     position: absolute;
     left: 50px;
     top: 530px;
   }
-  .darwell-position{
+
+  .darwell-position {
     position: absolute;
     top: 830px;
     left: 50px;
   }
-  .cody-position{
+
+  .cody-position {
     position: absolute;
     bottom: 350px;
     left: 50px;
   }
-  .dianne-position{
+
+  .dianne-position {
     position: absolute;
     bottom: 640px;
   }
-  .theresa-position{
+
+  .theresa-position {
     position: absolute;
     left: 50px;
   }
+
   /* Meet Our Team Section Responsive Styles End Here */
+
+  /* Featured Workout Programs Section Responsive Styles Start Here */
+  .featured-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-programs-title-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .featured-programs-title {
+    font-size: 18px;
+    word-spacing: 3px;
+  }
+
+  .featured-programs-description {
+    font-size: 14px;
+    margin: 10px 33px 20px 33px;
+  }
+
+  .featured-card-one {
+    width: 100%;
+    height: 100%;
+    margin-right: 380px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .featured-card-one img {
+    width: 80%;
+    height: 80%;
+    margin-left: 25px;
+  }
+
+  .featured-card-one h3 {
+    font-size: 14px;
+    margin: 10px 30px 33px 33px;
+  }
+
+  .featured-card-one h4 {
+    font-size: 14px;
+  }
+
+  .featured-card-one li {
+    font-size: 14px;
+  }
+
+  .featured-list {
+    margin-bottom: 100px;
+  }
+
+  .featured-card-two {
+    width: 100%;
+    height: 100%;
+    margin-right: 380px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .featured-card-two img {
+    width: 80%;
+    height: 80%;
+    margin-left: 25px;
+  }
+  .featured-card-two h3 {
+    font-size: 14px;
+    margin: 10px 30px 33px 33px;
+  }
+  .featured-card-two h4 {
+    font-size: 14px;
+  }
+  .featured-card-two li {
+    font-size: 14px;
+  }
+
+  .featured-card-three {
+    width: 100%;
+    height: 100%;
+    margin-right: 380px;
+    position: relative;
+  }
+  .featured-card-three img {
+    width: 80%;
+    height: 80%;
+    margin-left: 25px;
+  }
+  .featured-card-three h3 {
+    font-size: 14px;
+    margin: 10px 30px 33px 33px;
+  }
+  .featured-card-three h4 {
+    font-size: 14px;
+  }
+  .featured-card-three li {
+    font-size: 14px;
+  }
+
+
+  .featured-btn-one {
+    position: absolute;
+    top: 480px;
+    left: -80px;
+  }
+  .featured-btn-two {
+    position: absolute;
+    top: 410px;
+    left: -80px;
+  }
+  .featured-btn-three {
+    position: absolute;
+    top: 520px;
+    left: -98px;
+  }
 }
+
+
+/* Features Workout Programs Section Responsive Styles End Here */
