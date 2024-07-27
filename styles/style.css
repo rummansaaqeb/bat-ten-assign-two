@@ -17,7 +17,8 @@
   font-weight: 400;
   font-style: normal;
 }
-.br{
+
+.br {
   display: none;
 }
 
@@ -253,7 +254,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: black;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
 
 }
 
@@ -522,7 +523,7 @@ body {
 }
 
 .rumman input[type="text"] {
-  width: 94%;
+  width: 91%;
   height: 100%;
   padding: 20px;
   margin-top: 12px;
@@ -553,7 +554,6 @@ body {
 #bmi-btn {
   color: white;
   font-size: 18px;
-  padding: 0px 35px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -575,19 +575,175 @@ th {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* BMI Calculator Section Styles End Here */
+
+
+/* Meet Our Team Section Styles Starts Here */
+.meet-team-title-container {
+  width: 620px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+
+.meet-team-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.meet-team-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.meet-team-img-container {
+  width: 1080px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  position: relative;
+  background-color: #1A1A1A;
+  margin-bottom: 100px;
+  border-radius: 18px;
+  padding: 10px;
+}
+
+.meet-team-img-container img {
+  width: 326px;
+  height: 272px;
+  border-radius: 18px;
+}
+
+.jerome,
+.cameron,
+.darwell,
+.dianne,
+.cody,
+.theresa {
+  filter: brightness(80%);
+}
+
+.jerome,
+.dianne {
+  margin-left: 25px;
+}
+
+.cameron,
+.cody {
+  margin-left: 10px
+}
+
+.darwell,
+.cameron,
+.jerome {
+  margin-top: 20px;
+}
+
+.jerome-position {
+  position: absolute;
+  top: 230px;
+  left: 50px;
+}
+
+.jerome-position-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.jerome-position-subtitle {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.cameron-position {
+  color: white;
+  position: absolute;
+  top: 230px;
+  left: 400px;
+}
+
+.cameron-position-title {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.cameron-position-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.darwell-position {
+  position: absolute;
+  top: 230px;
+  left: 750px;
+}
+
+.darwell-position-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.darwell-position-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dianne-position {
+  position: absolute;
+  bottom: 60px;
+  left: 50px;
+}
+
+.dianne-position-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.dianne-position-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cody-position {
+  position: absolute;
+  bottom: 60px;
+  left: 400px;
+}
+
+.cody-position-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.cody-position-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.theresa-position {
+  position: absolute;
+  bottom: 60px;
+  left: 750px;
+}
+
+.theresa-position-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.theresa-position-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* Meet Our Team Section Styles Starts Here */
 
 
 /* Main Section Styles End Here */
@@ -596,6 +752,9 @@ th {
 
 @media screen and (max-width:576px) {
 
+  .br-run {
+    display: none;
+  }
 
   /* Navbar Responsive Styles Start Here */
   .navbar {
@@ -633,8 +792,6 @@ th {
     margin-left: 15px;
     position: relative;
   }
-
-  .banner-btn {}
 
   .banner-btn-two {
     position: absolute;
@@ -707,9 +864,15 @@ th {
   /* Banner Responsive Styles End Here */
 
   /* Change Your Habits Responsive Styles Section Starts Here */
-  
+
   .change-habit-title {
+    font-size: 32px;
+    font-weight: 900;
     padding: 0px;
+  }
+
+  .change-habit-description {
+    margin: 14px 38px;
   }
 
   .change-habit-img-container {
@@ -722,8 +885,9 @@ th {
 
   .movement {
     position: absolute;
-    top: 1300px;
-    left: 170px;
+    font-weight: 600;
+    top: 1260px;
+    left: 165px;
   }
 
   .sub-movement {
@@ -734,8 +898,9 @@ th {
 
   .time {
     position: absolute;
+    font-weight: 600;
     left: 190px;
-    top: 1700px;
+    top: 1665px;
   }
 
   .sub-time {
@@ -746,8 +911,9 @@ th {
 
   .practice {
     position: absolute;
-    left: 180px;
-    top: 2110px;
+    font-weight: 600;
+    left: 175px;
+    top: 2080px;
   }
 
   .sub-practice {
@@ -758,8 +924,9 @@ th {
 
   .weight-loss {
     position: absolute;
-    right: 150px;
-    top: 2520px;
+    font-weight: 600;
+    right: 152px;
+    top: 2490px;
   }
 
   .sub-weight-loss {
@@ -829,6 +996,10 @@ th {
     height: 100%;
   }
 
+  .bmi-title-container {
+    margin-bottom: 32px;
+  }
+
   .bmi-title {
     font-size: 32px;
     margin-left: 10px;
@@ -841,9 +1012,9 @@ th {
   }
 
   .table-title {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 900;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
 
@@ -878,8 +1049,16 @@ th {
 
   .bmi-container button {
     position: absolute;
-    top: 820px;
+    top: 810px;
     left: 10px;
+  }
+
+  .input-title {
+    padding-left: 20px;
+  }
+
+  .input-description {
+    padding-left: 20px;
   }
 
   .inputs {
@@ -894,7 +1073,7 @@ th {
   }
 
   .rumman input[type="text"] {
-    width: 86%;
+    width: 85%;
     margin: 10px;
     margin-bottom: 130px;
   }
@@ -928,4 +1107,78 @@ th {
 
 
   /* BMI Calculator Section Responsive Styles End Here */
+
+
+  /* Meet Our Team Section Responsive Styles Start Here */
+  .meet-team-title-container {
+    width: 100%;
+  }
+
+  .meet-team-title {
+    font-size: 32px;
+  }
+
+  .meet-team-description {
+    margin: 0px 33px;
+  }
+
+  .meet-team-img-container {
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cameron {
+    margin-left: 25px;
+  }
+
+  .darwell {
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .dianne {
+    margin-bottom: 20px;
+  }
+
+  .cody {
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .theresa {
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+
+  .cameron-position {
+    position: absolute;
+    left: 50px;
+    top: 530px;
+  }
+
+  .darwell-position {
+    position: absolute;
+    top: 830px;
+    left: 50px;
+  }
+
+  .cody-position {
+    position: absolute;
+    bottom: 350px;
+    left: 50px;
+  }
+
+  .dianne-position {
+    position: absolute;
+    bottom: 640px;
+  }
+
+  .theresa-position {
+    position: absolute;
+    left: 50px;
+  }
+
+  /* Meet Our Team Section Responsive Styles End Here */
 }
