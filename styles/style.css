@@ -983,6 +983,11 @@ footer ul{
     width: 100%;
     justify-content: space-around;
   }
+  .none {
+    display: block;
+     color: white;
+     margin-left: 310px;
+  }
 
   .navbar ul li {
     display: none;
@@ -991,10 +996,6 @@ footer ul{
   .navbar h3 {
     position: absolute;
     left: 20px;
-  }
-
-  .fa-solid {
-    display: block;
   }
 
   /* Navbar Responsive Styles End Here */
@@ -1306,13 +1307,13 @@ footer ul{
 
   .chevron-one {
     position: absolute;
-    top: 700px;
+    top: 693px;
     right: 35px;
   }
 
   .chevron-two {
     position: absolute;
-    top: 770px;
+    top: 760px;
     right: 35px;
 
   }
