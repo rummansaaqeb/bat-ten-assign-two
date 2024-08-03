@@ -147,6 +147,7 @@ body {
 .banner-btn,
 .banner-btn-two {
   margin-top: 28px;
+  cursor: pointer;
 }
 
 .banner-btn {
